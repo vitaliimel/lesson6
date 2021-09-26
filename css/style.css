@@ -1,0 +1,513 @@
+/*Fonts*/
+
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+   font-family: "Nexa Script";
+   src: url("../fonts/") format("woff2"), url("../fonts/NexaScript-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Nexa Script";
+   src: url("../fonts/NexaScript-Light.woff2") format("woff2"), url("../fonts/NexaScript-Light.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   font-size: 16px;
+}
+body {
+   line-height: 1;
+   font-weight: 400;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background-color: #d4dde1;
+}
+
+/* --------------- */
+
+.container {
+   max-width: 1200px;
+   margin: 0px auto;
+   background-color: #d4dde1;
+   padding: 0px 10px 0px 10px;
+}
+
+/*---------------HEADER---------------*/
+.menu {
+   margin: 50px 0px 50px 0px;
+}
+.logo {
+   padding: 10px;
+   display: inline-block;
+}
+.logo span {
+   display: inline-block;
+   border: 8px double #218be0;
+   box-shadow: inset 1px -1px 16px 6px #000, 0px 0px 8px 14px rgba(117, 115, 115, 0.4);
+   font-family: "Dancing Script", serif;
+   text-transform: capitalize;
+   font-size: 20px;
+   font-weight: 700;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   overflow: hidden;
+   padding: 57px 0px 0px 17px;
+   background-color: #218be0;
+}
+.menu-list {
+   display: inline-block;
+   font-size: 0;
+   padding-left: 124px;
+}
+.list li {
+   box-shadow: 0px 0px 6px 2px rgb(117, 115, 115);
+   display: inline-block;
+   background-color: rgba(133, 147, 174, 0.3);
+   padding: 10px;
+   border-radius: 14px;
+   margin: 0px 15px 15px 0px;
+   max-width: 100px;
+   max-height: 100%;
+   overflow: hidden;
+   vertical-align: top;
+}
+
+.link {
+   font-size: 17px;
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   color: #181b1d;
+   font-weight: 500;
+}
+
+/*---------------MAIN-----------------*/
+.task2-1 {
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   font-size: 35px;
+   padding-bottom: 5px;
+   text-align: center;
+   border-bottom: 8px dotted #218be0;
+}
+
+.block-circul {
+   text-align: center;
+   margin: 50px 0px 70px 0px;
+}
+.block-circul > .circul-one,
+.circul-two,
+.circul-three {
+   vertical-align: top;
+   text-align: center;
+}
+
+.circul-two span {
+   display: inline-block;
+   color: #218be0;
+   padding-top: 50px;
+   font-family: "Bebas Neue", cursive;
+   font-size: 50px;
+}
+.circul-three span {
+   display: inline-block;
+   color: #d4dde1;
+   padding-top: 50px;
+   font-family: "Bebas Neue", cursive;
+   font-size: 50px;
+}
+
+.circul-one {
+   display: inline-block;
+   border: 2px solid #8593ae;
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   font-family: "Nexa Script";
+}
+
+.circul-two {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-color: #d4dde1;
+   border: 25px solid #218be0;
+}
+.circul-three {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 18px solid #efae3a;
+   background-color: #efae3a;
+}
+.circul-three-border {
+   margin-top: -1px;
+
+   display: inline-block;
+   width: 167px;
+   height: 167px;
+   border: 10px solid #d4dde1;
+   border-radius: 50%;
+}
+
+/*div-with-p*/
+.task2-2 {
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   font-size: 35px;
+   padding-bottom: 5px;
+   text-align: center;
+   border-bottom: 8px dashed #218be0;
+   margin-bottom: 30px;
+}
+.div-with-p-one {
+   border: 1px solid #8593ae;
+   box-shadow: 10px 15px 10px 0 rgba(0, 0, 0, 0.3);
+   margin: 0px 0px 30px 0px;
+   opacity: 0.5;
+   padding: 15px;
+}
+.div-with-p-one p {
+   font-size: 25px;
+   font-family: "Nexa Script";
+   text-align: end;
+   text-shadow: 5px 2px 1px #8593ae;
+   font-weight: 500;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+.div-with-p-two {
+   border: 8px dashed #8593ae;
+   margin: 0px 0px 30px 0px;
+   padding: 30px;
+}
+.div-with-p-two p {
+   font-family: "Dancing Script", serif;
+   text-transform: capitalize;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 200%;
+   text-shadow: 2px 4px 5px rgb(133, 147, 174);
+}
+.div-with-three {
+   border: 15px dotted #8593ae;
+   margin: 0px 0px 30px 0px;
+   opacity: 0.3;
+   padding: 50px;
+}
+.div-with-three p {
+   font-size: 18px;
+   font-weight: 700;
+   font-family: "Nexa Script";
+   text-transform: lowercase;
+   text-decoration: line-through;
+   text-align: center;
+   text-shadow: 3px 3px 1px #efae3a;
+}
+.div-with-four p {
+   font-family: "Bebas Neue", cursive;
+   font-size: 20px;
+   word-spacing: 5px;
+   letter-spacing: 3px;
+   text-transform: lowercase;
+   text-decoration: overline;
+   opacity: 0.3;
+}
+.div-with-four {
+   border: 0.5px solid #8593ae;
+   margin: 0px 0px 50px 0px;
+   padding: 50px;
+   box-shadow: -15px 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*-----------------span-text---------------*/
+.task2-3 {
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   font-size: 35px;
+   padding-bottom: 5px;
+   text-align: center;
+   border-bottom: 8px double #efae3a;
+   margin-bottom: 30px;
+}
+.span-text {
+   display: inline-block;
+   border: 5px solid #677695;
+   padding: 20px;
+   margin: 0px 0px 50px 0px;
+   font-weight: 700;
+   font-size: 18px;
+   font-family: "Bebas Neue", cursive;
+   text-transform: uppercase;
+   text-decoration: underline;
+   box-shadow: 15px 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*-------------differend-block-----------------*/
+.task2-4 {
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   font-size: 35px;
+   padding-bottom: 5px;
+   text-align: center;
+   border-bottom: 8px solid #efae3a;
+   margin-bottom: 30px;
+}
+.differend-block-one {
+   border: 5px dashed rgba(55, 58, 59, 0.3);
+   min-height: 200px;
+   box-shadow: 10px 10px 10px 2px rgba(34, 60, 80, 0.2) inset;
+   margin-bottom: 60px;
+   border-radius: 100px;
+   overflow: hidden;
+}
+.differend-block-one p {
+   font-family: "Nexa Script", serif;
+   font-size: 15px;
+   color: #373a3b;
+   padding: 20px;
+   text-shadow: 1px 1px 50px rgb(55, 58, 59);
+   text-align: center;
+}
+.differend-block-two {
+   border-top: 4px dotted rgb(47, 45, 45);
+   border-bottom: 6px dashed #efae3a;
+   border-left: 8px double #218be0;
+   margin-bottom: 60px;
+   max-width: 350px;
+   max-height: 200px;
+   overflow: hidden;
+}
+.differend-block-two p {
+   font-family: "Nexa Script", serif;
+   font-size: 15px;
+   color: #373a3b;
+   padding: 20px;
+   font-size: 20px;
+   text-transform: capitalize;
+   line-height: 150%;
+   letter-spacing: 4px;
+}
+.differend-block-three p {
+}
+.differend-block-three {
+   background-color: #efae3a;
+   max-width: 350px;
+   max-height: 350px;
+   border: 8px solid #4d5a64;
+   border-radius: 50% 50% 50% 0px;
+   overflow: hidden;
+   margin: 30px 0px 30px 0px;
+   box-shadow: 30px 10px 15px 0px #4d5a64;
+   margin-bottom: 100px;
+}
+.differend-block-three p {
+   font-family: "Bebas Neue", sans-serif;
+   font-size: 15px;
+   color: #373a3b;
+}
+.differend-block-four {
+   box-shadow: 6px 8px 0px 0px #4d5a64;
+   background-color: #218be0;
+   max-width: 600px;
+   max-height: 200px;
+   border: 10px double #2f3031;
+   border-radius: 30px;
+   overflow: auto;
+   margin-bottom: 60px;
+}
+.differend-block-four p {
+   font-family: "Bebas Neue", sans-serif;
+   font-size: 20px;
+   color: #d4dde1;
+}
+
+/*-----------------Link-----------------*/
+.task2-5 {
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   font-size: 35px;
+   padding-bottom: 5px;
+   text-align: center;
+   border-bottom: 8px dotted #218be0;
+   margin-bottom: 60px;
+}
+.button {
+   box-shadow: inset 1px -1px 16px 6px #000, 0px 6px 17px 4px #000;
+   min-width: 300px;
+   min-height: 60px;
+   background-color: #efae3a;
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 50px;
+   border-radius: 80px;
+}
+.button a {
+   font-family: "Nexa Script", serif;
+   text-transform: capitalize;
+   font-size: 20px;
+   color: azure;
+   word-spacing: 5px;
+   letter-spacing: 3px;
+   display: inline-block;
+   width: 100%;
+}
+.button:hover {
+   background-color: #218be0;
+}
+.task2-6 {
+   text-transform: capitalize;
+   font-family: "Nexa Script", serif;
+   font-size: 35px;
+   padding-bottom: 5px;
+   text-align: center;
+   border-bottom: 8px dashed #218be0;
+   margin-bottom: 60px;
+}
+
+/*--------------------dop--------------*/
+.block-dop {
+   min-height: 100px;
+   font-size: 20px;
+   font-family: "Nexa Script", serif;
+   background-color: #218be0;
+   color: aliceblue;
+   border-top: 3px dotted aliceblue;
+   border-bottom: 5px dashed #373a3b;
+   border-left: 7px dashed #efae3a;
+   margin-bottom: 70px;
+   box-shadow: 10px 10px 10px 30px#efae3a;
+}
+.line {
+   line-height: 250px;
+   background-color: #efae3a;
+   box-shadow: 20px 10px 8px 9px #efae3a;
+   font-family: "Nexa Script", serif;
+   border: 9px dotted;
+}
+.line-two {
+   line-height: 250px;
+   background-color: #efae3a;
+   box-shadow: 20px 10px 8px 9px #efae3a;
+   border: 10px solid;
+   font-family: "Nexa Script", serif;
+}
+.line-three {
+   line-height: 250px;
+   background-color: #218be0;
+   box-shadow: 20px 10px 8px 9px #efae3a;
+   border-radius: 20px;
+   font-family: "Nexa Script", serif;
+   border-bottom: 8px dashed;
+}
+
+.block-dop-out {
+   outline: 10px dashed #218be0;
+   margin-bottom: 60px;
+}
+
+.block-dop-vis {
+   min-width: 200px;
+   min-height: 200px;
+   visibility: hidden;
+}
+.block-dop-mid {
+   display: inline-block;
+   max-width: 350px;
+   max-height: 350px;
+   border: 5px solid #efae3a;
+   font-family: "Nexa Script", serif;
+   overflow: auto;
+   padding: 30px;
+   margin-bottom: 60px;
+   vertical-align: middle;
+}
+.block-dop-bot {
+   box-shadow: inset 4px 4px 5px 6px #2f3031, 4px 4px 4px 4px #2f3031;
+   border-radius: 30px;
+   display: inline-block;
+   max-width: 350px;
+   max-height: 350px;
+   border: 5px dashed #218be0;
+   font-family: "Nexa Script", serif;
+   overflow: scroll;
+   padding: 30px;
+   margin-bottom: 60px;
+   vertical-align: bottom;
+}
+
+/*-----------------img------------*/
+.img-one {
+   margin-right: 30px;
+   border: 30px solid #efae3a;
+   margin-bottom: 40px;
+   box-shadow: 5px -40px 0px 0px #218be0;
+}
+.img-two {
+   border: 30px solid #6e5830;
+   border-radius: 20% 10% 50% 10%;
+}
+.img-three {
+   border: 30px solid #03329e;
+   border-radius: 90% 10% 40% 60%;
+}
+/*----------------FOOTER--------------*/
+footer {
+   min-height: 100px;
+}
+.footer-text {
+   text-transform: capitalize;
+   font-size: 40px;
+   font-family: "Nexa Script", serif;
+   padding: 30px;
+   display: block;
+   background-color: #218be0;
+   color: whitesmoke;
+   text-align: center;
+}
